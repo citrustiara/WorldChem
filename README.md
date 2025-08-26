@@ -1,2 +1,2 @@
 # WorldChem
-A website for a company specialized in household chemicals.
+A website for a company specializing in household chemicals.
