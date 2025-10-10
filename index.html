@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WorldChem - Dostawca wysokiej jakości surowców chemicznych</title>
     <meta name="description" content="WorldChem - lider w dostawie surowców i związków chemicznych. Nowoczesne rozwiązania dla przemysłu, najwyższa jakość obsługi.">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="cookies.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <img src="LOGO2.svg" alt="WorldChem" class="logo" />
+            <a href="index.html"><img src="LOGO2.svg" alt="WorldChem" class="logo"/> </a>
             <ul class="nav-menu">
                 <li class="nav-item"><a href="index.html">Strona główna</a></li>
                 <li class="nav-item"><a href="oferta.html">Oferta</a></li>
@@ -222,6 +222,19 @@
             <a href="kontakt.html" class="contact-button">Zapytaj o cenę</a>
         </div>
     </section>
+	<div id="cookieBanner">
+    <div class="cookie-content">
+        <div class="cookie-text">
+            <p>🍪 Ta strona używa wyłącznie niezbędnych plików cookies, aby zapewnić jej prawidłowe działanie. 
+            Dalsze korzystanie ze strony oznacza zgodę na ich użycie. 
+            <a href="polityka.html">Polityka prywatności</a></p>
+        </div>
+        <div class="cookie-actions">
+            <button class="cookie-btn btn-accept" onclick="acceptCookies()">Rozumiem</button>
+        </div>
+    </div>
+</div>
+
 
     <!-- Footer -->
     <footer class="footer">
@@ -238,7 +251,7 @@
                 <div class="footer-section">
                     <h3>Kontakt handlowy</h3>
                     <p>Email: <a href="mailto:biuro@worldchem.pl">biuro@worldchem.pl</a></p>
-                    <p>Tel: <a href="tel:"></a></p>
+                    <p>Tel: <a href="tel:+48 600 535 478">+48 600 535 478</a></p>
                 </div>
                 
                 <div class="footer-section">
@@ -246,7 +259,7 @@
                     <p><a href="oferta.html">Oferta</a></p>
                     <p><a href="o-nas.html">O nas</a></p>
                     <p><a href="kontakt.html">Kontakt</a></p>
-                    <p><a href="polityka.html">Polityka prywatności</a></p>
+                    <p><a href="polityka.html">Polityka prywatności</a></p><p><a href="regulamin.html">Regulamin</a></p>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -255,6 +268,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js"></script><script src="cookies.js"></script>
 </body>
 </html>
