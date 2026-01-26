@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dziękujemy za zapytanie - WorldChem</title>
-    <meta name="description" content="Dziękujemy za wysłanie zapytania do WorldChem. Skontaktujemy się z Tobą w najkrótszym możliwym czasie.">
+    <title>Dziękujemy za Kontakt - WorldChem</title>
+    <meta name="robots" content="noindex">
+    <meta name="description"
+        content="Dziękujemy za wysłanie zapytania do WorldChem. Skontaktujemy się z Tobą w najkrótszym możliwym czasie.">
+    <link rel="icon" type="image/svg+xml" href="LOGO.svg">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cookies.css">
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="qseldxRTi/VwqGJyToppag" async></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17664427538"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-17664427538'); </script>
     <style>
         /* Dodatkowe style dla strony podziękowania */
         .thank-you-section {
@@ -37,7 +46,7 @@
             text-align: center;
             max-width: 900px;
             width: 90%;
-            box-shadow: 
+            box-shadow:
                 0 25px 60px rgba(74, 85, 104, 0.15),
                 0 10px 30px rgba(0, 0, 0, 0.1);
             backdrop-filter: blur(20px);
@@ -298,6 +307,7 @@
                 opacity: 0;
                 transform: translateY(50px) scale(0.9);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0) scale(1);
@@ -309,13 +319,16 @@
                 opacity: 0;
                 transform: scale(0.3);
             }
+
             50% {
                 opacity: 1;
                 transform: scale(1.05);
             }
+
             70% {
                 transform: scale(0.95);
             }
+
             100% {
                 opacity: 1;
                 transform: scale(1);
@@ -327,6 +340,7 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -338,10 +352,12 @@
                 transform: scale(1);
                 opacity: 0.7;
             }
+
             50% {
                 transform: scale(1.05);
                 opacity: 0.3;
             }
+
             100% {
                 transform: scale(1);
                 opacity: 0.7;
@@ -407,18 +423,25 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html"><img src="LOGO2.svg" alt="WorldChem" class="logo"/> </a>
+            <a href="index.html"><img src="LOGO2.svg" alt="WorldChem" class="logo" /> </a>
             <ul class="nav-menu">
                 <li class="nav-item"><a href="index.html">Strona główna</a></li>
                 <li class="nav-item"><a href="oferta.html">Oferta</a></li>
                 <li class="nav-item"><a href="o-nas.html">O nas</a></li>
                 <li class="nav-item"><a href="kontakt.html">Kontakt</a></li>
             </ul>
-            <button class="mobile-menu-toggle">☰</button>
+            
+            <div class="header-search">
+                <input type="text" id="headerSearchInput" placeholder="Szukaj...">
+                <button id="headerSearchBtn">🔍</button>
+                <div id="headerSearchResults" class="search-dropdown"></div>
+            </div>
+<button class="mobile-menu-toggle">☰</button>
         </div>
     </nav>
 
@@ -426,14 +449,16 @@
     <section class="thank-you-section">
         <div class="thank-you-content">
             <div class="success-icon">✓</div>
-            
+
             <h1>Dziękujemy za zapytanie!</h1>
-            
-            <p>Twoje zapytanie zostało pomyślnie wysłane do naszego zespołu ekspertów. Doceniamy Twoje zainteresowanie naszymi produktami i usługami.</p>
+
+            <p>Twoje zapytanie zostało pomyślnie wysłane do naszego zespołu ekspertów. Doceniamy Twoje zainteresowanie
+                naszymi produktami i usługami.</p>
 
             <div class="response-time">
                 <h3>Czas odpowiedzi</h3>
-                <p>Skontaktujemy się z Tobą <strong>w ciągu 24 godzin</strong> w dni robocze. W pilnych sprawach zadzwoń bezpośrednio pod numer <strong>+48 123 456 789</strong>.</p>
+                <p>Skontaktujemy się z Tobą <strong>w ciągu 24 godzin</strong> w dni robocze. W pilnych sprawach zadzwoń
+                    bezpośrednio pod numer <strong>+48 600 535 478</strong>.</p>
             </div>
 
             <div class="next-steps">
@@ -472,15 +497,15 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>WorldChem Sp. z o.o.</h3>
-                    <p>ul. Chemiczna 123<br>
-                    00-001 Warszawa<br>
-                    Polska</p>
-                    <p>NIP: 123-456-78-90<br>
-                    KRS: 0000123456</p>
+                    <p>ul. Jana Heweliusza 11/811<br>
+                        80-890 Gdańsk<br>
+                        Polska</p>
+                    <p>NIP: 5833546441<br>
+                        KRS: 0001191829</p>
                 </div>
                 <div class="footer-section">
                     <h3>Kontakt handlowy</h3>
-                    <p>Email: <a href="mailto:sprzedaz@worldchem.pl">sprzedaz@worldchem.pl</a></p>
+                    <p>Email: <a href="mailto:biuro@worldchem.pl">biuro@worldchem.pl</a></p>
                     <p>Tel: <a href="tel:+48 600 535 478">+48 600 535 478</a></p>
                 </div>
                 <div class="footer-section">
@@ -488,7 +513,8 @@
                     <p><a href="oferta.html">Oferta</a></p>
                     <p><a href="o-nas.html">O nas</a></p>
                     <p><a href="kontakt.html">Kontakt</a></p>
-                    <p><a href="polityka.html">Polityka prywatności</a></p><p><a href="regulamin.html">Regulamin</a></p>
+                    <p><a href="polityka.html">Polityka prywatności</a></p>
+                    <p><a href="regulamin.html">Regulamin</a></p>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -497,12 +523,26 @@
         </div>
     </footer>
 
+    <div id="cookieBanner">
+        <div class="cookie-content">
+            <div class="cookie-text">
+                <p>🍪 Ta strona używa wyłącznie niezbędnych plików cookies, aby zapewnić jej prawidłowe działanie.
+                    Dalsze korzystanie ze strony oznacza zgodę na ich użycie.
+                    <a href="polityka.html">Polityka prywatności</a>
+                </p>
+            </div>
+            <div class="cookie-actions">
+                <button class="cookie-btn btn-accept" onclick="acceptCookies()">Rozumiem</button>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
+    <script src="cookies.js"></script>
     <script>
         // Dodatkowa funkcjonalność dla strony podziękowania
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             // Automatyczne ukrycie komunikatu o sukcesie po 10 sekundach (opcjonalne)
-            setTimeout(function() {
+            setTimeout(function () {
                 const successIcon = document.querySelector('.success-icon');
                 if (successIcon) {
                     successIcon.style.animation = 'pulse 1s infinite';
@@ -516,7 +556,7 @@
 
         // Funkcja do kopiowania danych kontaktowych do schowka
         function copyToClipboard(text) {
-            navigator.clipboard.writeText(text).then(function() {
+            navigator.clipboard.writeText(text).then(function () {
                 // Pokazanie komunikatu o skopiowaniu
                 const notification = document.createElement('div');
                 notification.textContent = 'Skopiowano do schowka!';
@@ -532,7 +572,7 @@
                     animation: fadeInOut 3s ease-in-out;
                 `;
                 document.body.appendChild(notification);
-                
+
                 setTimeout(() => {
                     document.body.removeChild(notification);
                 }, 3000);
@@ -552,4 +592,5 @@
         document.head.appendChild(style);
     </script>
 </body>
+
 </html>

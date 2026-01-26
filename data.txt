@@ -1,0 +1,289 @@
+English Name;CAS
+4'-Hydroxyacetophenone;99-93-4
+Valerophenone;1009-14-9
+4'-Chloropropiophenone;6285-05-8
+Zinc methacrylate;13189-00-9
+2-bromo-4-chloropropiophenone;877-37-2
+2-Bromo-3'-chloropropiophenone;34911-51-8
+2,4-Dichlorobutyrophenone;66353-47-7
+3'-Chloropropiophenone;34841-35-5
+Acetophenone;98-86-2
+Valeryl chloride;638-29-9
+2',4'-Dichlorovalerophenone;61023-66-3
+Butyrophenone;495-40-9
+2-Benzoylbenzoic acid;85-52-9
+2'-Hydroxyacetophenone;118-93-4
+4'-Methoxyacetophenone;100-06-1
+4'-Methylacetophenone;122-00-9
+4-Fluoroacetophenone;403-42-9
+4'-Chloroacetophenone;99-91-2
+4-Acetylbiphenyl;92-91-1
+4'-Isopropylacetophenone;645-13-6
+2'-Methylacetophenone;577-16-2
+3-Fluoro-4-methoxyacetophenone;455-91-4
+2',5'-Dimethoxyacetophenone;1201-38-3
+2,4-Dimethoxyacetophenone;829-20-9
+4'-Ethoxyacetophenone;1676-63-7
+1-(4-Butylphenyl)ethan-1-one;37920-25-5
+4'-(2-Methylpropyl)acetophenone;38861-78-8
+4-Phenoxy-2',2'-dichloroacetophenone;59867-68-4
+3,4-Dimethoxyacetophenone;1131-62-0
+2-Chloro-4'-fluoroacetophenone;456-04-2
+4-Methylbenzophenone;134-84-9
+Bis(4-fluorophenyl)-methanone;345-92-6
+4-Benzoylbiphenyl;2128-93-0
+4-Hydroxybenzophenone;1137-42-4
+4-Methoxybenzophenone;611-94-9
+4-Chlorobenzophenone;134-85-0
+(2-Chlorophenyl)phenyl-methanone;5162-03-8
+4-Fluorobenzophenone;345-83-5
+4,4'-Dihydroxybenzophenone;611-99-4
+2-Methylbenzophenone;131-58-8
+2,4,6-Trimethylbenzophenone;954-16-5
+3,4-Dimethoxybenzophenone;4038-14-6
+(4-Ethoxyphenyl)phenylmethanone;27982-06-5
+4-Chloro-4'-hydroxybenzophenone;42019-78-3
+4-CHLORO-4'-METHYLBENZOPHENONE;5395-79-9
+4-Fluoro-4'-methoxybenzophenone;345-89-1
+4-Fluoro-4'-methylbenzophenone;530-46-1
+4,4'-Dichlorobenzophenone;90-98-2
+4,4'-Dimethoxybenzophenone;90-96-0
+4,4'-Dimethylbenzophenone;611-97-2
+3,4-Dihydroxybenzophenone;10425-11-3
+3,4-Dimethylbenzophenone;2571-39-3
+2,5-Dichlorobenzophenone;16611-67-9
+2,4'-Dichlorobenzophenone;85-29-0
+4-METHOXY-4'-METHYLBENZOPHENONE;23886-71-7
+HRcure-MPBZ;86428-83-3
+2-chloro-4'-phenylbenzophenone;34701-98-9
+Benzophenone;119-61-9
+4'-Methylpropiophenone;5337-93-9
+4'-Ethylpropiophenone;27465-51-6
+4'-Hydroxypropiophenone;70-70-2
+Methoxypropiophenone;121-97-1
+Anisole;100-66-3
+Hexanophenone;942-92-7
+4-Chloro-4'-fluorobutyrophenone;3874-54-2
+2,4-Dichlorobutyrophenone;66353-47-7
+2',4'-DICHLOROPROPIOPHENONE;37885-41-9
+4'-Fluoropropiophenone;456-03-1
+Diphenyl sulfone;127-63-9
+1-[1,1'-BIPHENYL]-4-YL-1-PENTANONE;42916-73-4
+4'-Hydroxyvalerophenone;2589-71-1
+1-(4-Hydroxyphenyl)-1-butanone;1009-11-6
+4-Chlorovalerophenone;25017-08-7
+4'-Methylvalerophenone;1671-77-8
+2',4'-Dichlorovalerophenone;61023-66-3
+Creatine Monohydrate;6020-87-7
+Creatine Anhydrous;57-00-1
+B-Nicotinamide Mononucleotide (NMN);1094-61-7
+Thioctic Acid (Alpha Lipoic Acid);1077-28-7
+Melatonin;73-31-4
+L-carnitine;541-15-1
+Coenzyme Q10;303-98-0
+Hyaluronic Acid;9004-61-9
+Sodium hyaluronate;9067-32-7
+Glutathione;70-18-8
+Docosahexaenoic acid;6217-54-5
+L-Fucose;2438-80-4
+Glucuronolactone;32449-92-6
+Aloe Vera Extract powder Aloin;1415-73-2
+5-HTP/Griffonia Seed Extract;4350-09-8
+Grape Seed Extract;84929-27-1
+Gallic acid;149-91-7
+Ginkgo biloba extract;90045-36-6
+L-Theanine;3081-61-6
+Casein;9000-71-9
+DL-Mandelic acid;90-64-2
+DL-Methionine;59-51-8
+Folic acid;59-30-3
+L(+)-Arginine;74-79-3
+Sodium D-pantothenate;867-81-2
+D-(+)-Glucose anhydrous;50-99-7
+linoleic acid;60-33-3
+Benzyl alcohol;100-51-6
+Monosodium glutamate;32221-81-1
+Inosine 5'-monophospate disodium salt;4691-65-0
+Disodium succinate;150-90-3
+EPA;10417-94-4
+all-trans-Retinol;68-26-8
+Sorbic acid;110-44-1
+Potassium iodide;7681-11-0
+Glycyrrhizic acid ammonium salt;53956-04-0
+Vitamin B12;68-19-9
+L-Glutamine;56-85-9
+Collagen;9007-34-5
+Sorbitol;50-70-4
+Vitamin E;2074-53-5
+DL-Pyroglutamic acid;149-87-1
+L-Proline;147-85-3
+Xanthophyll;127-40-2
+Glucose oxidase;9001-37-0
+Glycine;56-40-6
+Tributyrin;60-01-5
+Noopept;157115-85-0
+4-Hexylresorcinol;136-77-6
+vitamin B5;137-08-6
+Lactulose;4618-18-2
+Tocopherol;1406-18-4
+Bromothymol Blue;76-59-5
+Bromophenol Blue;115-39-9
+Bromocresol Green;76-60-8
+5-(4-Dimethylaminobenzylidene) rhodanine;536-17-4
+Diphenylaminesulfonic acid sodium salt;6152-67-6
+4,4'-Bis (dimethylamino) thiobenzophenone;1226-46-6
+1-NITROSO-2-NAPHTHOL-3;525-05-3
+Sodium bromothymol blue;34722-90-2
+Oxalic acid bis;370-81-0
+2-Hydroxy-1-(2-hydroxy-4-sulfo-1-naphthylazo)-3-na;3737-95-9
+Eosin Y, water soluble;17372-87-1
+sodium phenolate;139-02-6
+Alizarin Yellow R;2243-76-7
+Fuchsine acid, Rubin S;3244-88-0
+Cresol Red;1733-12-6
+Brilliant green;633-03-4
+Alizarin red;130-22-3
+Indigo Carmine;860-22-0
+Prussian Blue;14038-43-8
+Basic Red 5;553-24-2
+Thioacetamide;62-55-5
+Fluorescein disodium salt;518-47-8
+Fluorescein;2321-07-5
+Naphthol green B;19381-50-1
+1h-indole-3-butanoic acid;133-32-4
+Bromocresol purple;115-40-2
+Methylthymol Blue;1945-77-3
+Coomassie brilliant blue G250;6104-58-1
+Coomassie brilliant blue R250;6104-59-2
+Calcon-carboxylic acid;3737-95-9
+Congo Red;573-58-0
+Orange II;633-96-5
+Acid chrome blue K;3270-25-5
+Calconcarboxylic acid;3737-95-9
+Murexide;3051-09-0
+ThyMolphthalein;125-20-2
+Calcein;1461-15-0
+xylenol orange;1611-35-4
+Bromocresol purpl;115-40-2
+Cresol Purple;2303-1-7
+Basic Red 5;553-24-2
+o-Cresolphthalein;596-27-0
+Eriochrome blue black R;2538-85-4
+Eriochrome Black T;1787-61-7
+Methylene Blue trihydrate;7220-79-3
+1,10-Phenanthroline hydrochloride;3829-86-5
+m-Methyl red;20691-84-3
+Chromotrope 2B;548-80-1
+Zincon monosodium salt;62625-22-3
+Methyl yellow;1960-11-7
+Arsenazol;3547-38-4
+Sodium hexanitrocobaltate (III);13600-98-1
+Rhodizonic acid sodium salt;523-21-7
+Anthrone;90-44-8
+alpha-Naphtholphthalein;596-01-0
+Diethyl dithio carbamic acid silver salt;1470-61-7
+4-Dimethylaminobenzaldehyde;100-10-7
+4-(2-PYRIDYLAZO) RESORCINOL;1141-59-9
+Phenol Red;143-74-8
+Rose Bengal sodium salt;632-69-9
+1-(2-Pyridylazo)-2-naphthol;85-85-8
+Rhodanine;141-84-4
+1-amino-2-naphthol-4-sulfonic acid;116-63-2
+Chlorophosphonazo I;85561-96-2
+Sodium diethyldithiocarbamate;20624-25-3
+o-Phenanthroline;66-71-7
+Methylene blue;61-73-4
+Methyl Orange;547-58-0
+Semixylenolorange;19329-67-0
+MethylRed;493-52-7
+1,10-Phenanthrolinemonohydrate;5144-89-8
+ThymolBlue;76-61-9
+Dimethylglyoxime;95-45-4
+Phenol Red sodium salt;34487-61-1
+NITRAZINEYELLOW;5423-07-4
+ALuminon;569-58-4
+Methyl red sodium salt;845-10-3
+chlorophosphonazo iii;1914-99-4
+o-Cresolphthalein Complexone;2411-89-4
+N-Phenylanthranilic acid;91-40-7
+Amino Black 10B;1064-48-8
+Arsenazo III;1668-00-4
+Naphthalene ethylenediamine hydrochloride;1465-25-4
+Fluorone Black;975-17-7
+potassium disulfate;7790-62-7
+disodium;3688-92-4
+Hexaaminecobalt (III) chloride;10534-89-1
+Solvent Red 43;15086-94-9
+Dimethylamine hydrochloride;506-59-2
+Trimethylammonium chloride;593-81-7
+Cadmium Chloride;10108-64-2
+Cadmium sulfate;10124-36-4
+Calcium hypophosphite;7789-79-9
+Diphenylthiocarbazone;60-10-6
+Diphenylcarbazide;140-22-7
+Litmus;1393-92-6
+p-Amino-N, N-diethylaniline sulfate;6283-63-2
+1-Naphthalene acetic acid;86-87-3
+indole-3-acetic acid;87-51-4
+4-Aminoantipyrene;83-07-8
+Phenolphthalein;77-09-8
+Titan yellow;1829-00-1
+Sudan IV;85-83-6
+Carmine;1390-65-4
+Metanil yellow;587-98-4
+Chomeazurol S;1667-99-8
+Orange G;1936-15-8
+P-xylenolphthaleine;50984-88-8
+Safranine T;477-73-6
+Brilliant Blue G;6104-58-1
+Alizarin yellow GG;584-42-9
+Rhodamine B;81-88-9
+Ponceau S;6226-79-5
+Malachite green;569-64-2
+Sudan I;842-07-9
+Alkali blue 6B;1324-80-7
+Magenta;632-99-5
+Gentian violet;548-62-9
+Sudan III;85-86-9
+Methylblue;28983-56-4
+SudanII;3118-97-6
+acid red 29;4197-07-3
+Bismarchizone Y;10114-58-6
+Azure I I;37247-10-2
+Aniline Blue;28631-66-5
+Wright's stain;68988-92-1
+sudan red B;3176-79-2
+UV-9;131-57-7
+UV-284;4065-45-6
+UV-531;1843-05-6
+UV-144;63843-89-0
+UV-1084;14516-71-3
+UV-234;70321-86-7
+UV-3039;6197-30-4
+UV-360;103597-45-1
+UV-770;52829-07-9
+UV-622;65447-77-0
+UV-944;71878-19-8
+UV-1;57834-33-0
+UV-292;41556-26-7/82919-37-7
+UV-2908;67845-93-6
+UV-1577;147315-50-2
+UV-1164;2725-22-6
+UV-326;3896-11-5
+UV-329;3147-75-9
+UV-P;2440-22-4
+UV-5050H;152261-33-1
+UV-4050H;124172-53-8
+ZT-3853PP;167078-06-0/9003-07-0
+ZT-3808PP;167078-06-0/67845-93-6/9003-07-0
+UV-3030;178671-58-4
+UV-988;6337-43-5
+UV-1988;7443-25-6
+UV-3853;167078-06-0
+HQEE;104-38-1
+HER;102-40-9
+AVB;70356-09-1
+OCT;6197-30-4
+HMS;118-56-9
+OS;118-60-5
+DHHB;302776-68-7

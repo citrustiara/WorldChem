@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rozpuszczalniki - WorldChem</title>
-    <meta name="description" content="Rozpuszczalniki przemysłowe WorldChem - alkidowe, nitro, ftalowe i inne dla przemysłu lakierniczego i chemicznego.">
+    <title>Rozpuszczalniki Przemysłowe - Nitro, Aceton, Toluen | WorldChem</title>
+    <meta name="description"
+        content="Szeroki wybór rozpuszczalników: nitro, alkidowe, chlorokauczukowe, toluenowe. Idealne do farb, lakierów i zastosowań technicznych. Hurtowe ilości.">
+    <link rel="icon" type="image/svg+xml" href="LOGO.svg">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cookies.css">
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="qseldxRTi/VwqGJyToppag" async></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17664427538"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-17664427538'); </script>
 </head>
+
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html"><img src="LOGO2.svg" alt="WorldChem" class="logo"/> </a>
+            <a href="index.html"><img src="LOGO2.svg" alt="WorldChem" class="logo" /> </a>
             <ul class="nav-menu">
                 <li class="nav-item"><a href="index.html">Strona główna</a></li>
                 <li class="nav-item"><a href="oferta.html">Oferta</a></li>
                 <li class="nav-item"><a href="o-nas.html">O nas</a></li>
                 <li class="nav-item"><a href="kontakt.html">Kontakt</a></li>
             </ul>
-            <button class="mobile-menu-toggle">☰</button>
+            
+            <div class="header-search">
+                <input type="text" id="headerSearchInput" placeholder="Szukaj...">
+                <button id="headerSearchBtn">🔍</button>
+                <div id="headerSearchResults" class="search-dropdown"></div>
+            </div>
+<button class="mobile-menu-toggle">☰</button>
         </div>
     </nav>
 
@@ -26,7 +41,8 @@
     <header class="page-header">
         <div class="container">
             <h1>Rozpuszczalniki</h1>
-            <p>Szeroka gama rozpuszczalników dla przemysłu lakierniczego, chemicznego i innych zastosowań technicznych.</p>
+            <p>Szeroka gama rozpuszczalników dla przemysłu lakierniczego, chemicznego i innych zastosowań technicznych.
+            </p>
         </div>
     </header>
 
@@ -114,7 +130,8 @@
     <section class="contact-section">
         <div class="container">
             <h2>Potrzebujesz więcej informacji?</h2>
-            <p>Skontaktuj się z naszymi ekspertami i otrzymaj szczegółową specyfikację produktów z kategorii rozpuszczalników.</p>
+            <p>Skontaktuj się z naszymi ekspertami i otrzymaj szczegółową specyfikację produktów z kategorii
+                rozpuszczalników.</p>
             <a href="kontakt.html" class="contact-button">Zapytaj o cenę</a>
         </div>
     </section>
@@ -126,23 +143,24 @@
                 <div class="footer-section">
                     <h3>WorldChem Sp. z o.o.</h3>
                     <p>ul. Jana Heweliusza 11/811<br>
-                    80-890 Gdańsk<br>
-                    Polska</p>
+                        80-890 Gdańsk<br>
+                        Polska</p>
                     <p>NIP: 5833546441<br>
-                    KRS: 0001191829</p>
+                        KRS: 0001191829</p>
                 </div>
                 <div class="footer-section">
                     <h3>Kontakt handlowy</h3>
                     <p>Email: <a href="mailto:biuro@worldchem.pl">biuro@worldchem.pl</a></p>
                     <p>Tel: <a href="tel:+48 600 535 478">+48 600 535 478</a></p>
                 </div>
-                
+
                 <div class="footer-section">
                     <h3>Szybkie linki</h3>
                     <p><a href="oferta.html">Oferta</a></p>
                     <p><a href="o-nas.html">O nas</a></p>
                     <p><a href="kontakt.html">Kontakt</a></p>
-                    <p><a href="polityka.html">Polityka prywatności</a></p><p><a href="regulamin.html">Regulamin</a></p>
+                    <p><a href="polityka.html">Polityka prywatności</a></p>
+                    <p><a href="regulamin.html">Regulamin</a></p>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -151,6 +169,21 @@
         </div>
     </footer>
 
+    <div id="cookieBanner">
+        <div class="cookie-content">
+            <div class="cookie-text">
+                <p>🍪 Ta strona używa wyłącznie niezbędnych plików cookies, aby zapewnić jej prawidłowe działanie.
+                    Dalsze korzystanie ze strony oznacza zgodę na ich użycie.
+                    <a href="polityka.html">Polityka prywatności</a>
+                </p>
+            </div>
+            <div class="cookie-actions">
+                <button class="cookie-btn btn-accept" onclick="acceptCookies()">Rozumiem</button>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
+    <script src="cookies.js"></script>
 </body>
+
 </html>

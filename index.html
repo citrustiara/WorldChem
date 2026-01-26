@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WorldChem - Dostawca wysokiej jakości surowców chemicznych</title>
-    <meta name="description" content="WorldChem - lider w dostawie surowców i związków chemicznych. Nowoczesne rozwiązania dla przemysłu, najwyższa jakość obsługi.">
-    <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="cookies.css">
+    <title>WorldChem - Hurtownia Chemiczna | Surowce i Chemia Przemysłowa</title>
+    <meta name="description"
+        content="Hurtownia chemiczna WorldChem. Dostarczamy najwyższej jakości surowce chemiczne, rozpuszczalniki, alkohole i chemię przemysłową dla Twojego biznesu. Sprawdź naszą ofertę!">
+    <meta name="keywords"
+        content="hurtownia chemiczna, surowce chemiczne, chemia przemysłowa, rozpuszczalniki, alkohole, dostawca chemii">
+    <link rel="icon" type="image/svg+xml" href="LOGO.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cookies.css">
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="qseldxRTi/VwqGJyToppag" async></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17664427538"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-17664427538'); </script>
 </head>
+
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html"><img src="LOGO2.svg" alt="WorldChem" class="logo"/> </a>
+            <a href="index.html"><img src="LOGO2.svg" alt="WorldChem" class="logo" /> </a>
             <ul class="nav-menu">
                 <li class="nav-item"><a href="index.html">Strona główna</a></li>
                 <li class="nav-item"><a href="oferta.html">Oferta</a></li>
                 <li class="nav-item"><a href="o-nas.html">O nas</a></li>
                 <li class="nav-item"><a href="kontakt.html">Kontakt</a></li>
             </ul>
-            <button class="mobile-menu-toggle">☰</button>
+            
+            <div class="header-search">
+                <input type="text" id="headerSearchInput" placeholder="Szukaj...">
+                <button id="headerSearchBtn">🔍</button>
+                <div id="headerSearchResults" class="search-dropdown"></div>
+            </div>
+<button class="mobile-menu-toggle">☰</button>
         </div>
     </nav>
 
@@ -32,19 +49,19 @@
     </section>
 
     <!-- Search Section -->
-			<section class="search-section">
-				<div class="container">
-					<h2>Znajdź potrzebny surowiec</h2>
-					<div class="main-search">
-						<input type="text" id="searchInput" placeholder="Wpisz nazwę surowca lub związku chemicznego">
-						<button id="searchBtn">Wyszukaj</button>
-					</div>
-					<div id="searchResults" class="search-results">
-						<p>Wpisz nazwę produktu, aby wyszukać.</p>
-					</div>
+    <section class="search-section">
+        <div class="container">
+            <h2>Znajdź potrzebny surowiec</h2>
+            <div class="main-search">
+                <input type="text" id="searchInput" placeholder="Wpisz nazwę surowca lub związku chemicznego">
+                <button id="searchBtn">Wyszukaj</button>
+            </div>
+            <div id="searchResults" class="search-results">
+                <p>Wpisz nazwę produktu, aby wyszukać.</p>
+            </div>
 
-				</div>
-			</section>
+        </div>
+    </section>
 
     <!-- About Section -->
     <section id="about" class="about-section">
@@ -52,14 +69,19 @@
             <div class="about-content">
                 <div class="about-text">
                     <h2>Dlaczego WorldChem?</h2>
-                    <p>WorldChem to nowoczesny podmiot na rynku chemicznym, oferujący hurtową sprzedaż chemii przemysłowej i specjalistycznych produktów dla różnych branż. Współpracujemy z największymi dostawcami na świecie, zapewniając szeroką gamę sprawdzonych surowców. Stawiamy na elastyczność, partnerskie relacje i profesjonalną obsługę, łącząc globalne możliwości z lokalnym zaangażowaniem.
-</p>
+                    <p>WorldChem to nowoczesny podmiot na rynku chemicznym, oferujący hurtową sprzedaż chemii
+                        przemysłowej i specjalistycznych produktów dla różnych branż. Współpracujemy z największymi
+                        dostawcami na świecie, zapewniając szeroką gamę sprawdzonych surowców. Stawiamy na elastyczność,
+                        partnerskie relacje i profesjonalną obsługę, łącząc globalne możliwości z lokalnym
+                        zaangażowaniem.
+                    </p>
                     <p></p>
-                    <a href="kontakt.html" class="cta-button" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; margin-top: 20px;">Porozmawiajmy</a>
+                    <a href="kontakt.html" class="cta-button"
+                        style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; margin-top: 20px;">Porozmawiajmy</a>
                 </div>
-				<div class="about-image">
-					<img src="LOGO.svg" alt="Logo">
-				</div>
+                <div class="about-image">
+                    <img src="LOGO.svg" alt="Logo">
+                </div>
             </div>
         </div>
     </section>
@@ -69,77 +91,83 @@
         <div class="container">
             <h2>Nasza Oferta</h2>
             <div class="offer-grid">
-                    <a href="odtluszczacze.html" class="offer-card-link">
-                        <div class="offer-card">
-                            <div class="offer-icon">🧽</div>
-                            <h3>Odtłuszczacze</h3>
-                            <p>Aceton, denaturaty, izopropanol, benzyna ekstrakcyjna i inne środki czyszczące o najwyższej skuteczności.</p>
-                            <div class="card-features">
-                                <!--<span class="feature-badge">Wysoka skuteczność</span>
+                <a href="odtluszczacze.html" class="offer-card-link">
+                    <div class="offer-card">
+                        <div class="offer-icon">🧽</div>
+                        <h3>Odtłuszczacze</h3>
+                        <p>Aceton, denaturaty, izopropanol, benzyna ekstrakcyjna i inne środki czyszczące o najwyższej
+                            skuteczności.</p>
+                        <div class="card-features">
+                            <!--<span class="feature-badge">Wysoka skuteczność</span>
                                 <span class="feature-badge">Różne pojemności</span>-->
-                            </div>
                         </div>
-                    </a>
-                    
-                    <a href="rozpuszczalniki.html" class="offer-card-link">
-                        <div class="offer-card">
-                            <div class="offer-icon">🧪</div>
-                            <h3>Rozpuszczalniki</h3>
-                            <p>Szeroka gama rozpuszczalników alkidowych, nitro, ftalowych i innych dla przemysłu lakierniczego i chemicznego.</p>
-                            <div class="card-features">
-                                <!--<span class="feature-badge">Czystość techniczna</span>
+                    </div>
+                </a>
+
+                <a href="rozpuszczalniki.html" class="offer-card-link">
+                    <div class="offer-card">
+                        <div class="offer-icon">🧪</div>
+                        <h3>Rozpuszczalniki</h3>
+                        <p>Szeroka gama rozpuszczalników alkidowych, nitro, ftalowych i innych dla przemysłu
+                            lakierniczego i chemicznego.</p>
+                        <div class="card-features">
+                            <!--<span class="feature-badge">Czystość techniczna</span>
                                 <span class="feature-badge">Szybka dostawa</span>-->
-                            </div>
                         </div>
-                    </a>
-                    
-                    <a href="profesjonalna-chemia.html" class="offer-card-link">
-                        <div class="offer-card">
-                            <div class="offer-icon">⚗️</div>
-                            <h3>Profesjonalna chemia</h3>
-                            <p>Alkohole, glikole, smary, nadtlenek wodoru i preparaty wielozadaniowe dla wymagających zastosowań przemysłowych.</p>
-                            <div class="card-features">
-                                <!--<span class="feature-badge">Certyfikaty jakości</span>
+                    </div>
+                </a>
+
+                <a href="profesjonalna-chemia.html" class="offer-card-link">
+                    <div class="offer-card">
+                        <div class="offer-icon">⚗️</div>
+                        <h3>Profesjonalna chemia</h3>
+                        <p>Alkohole, glikole, smary, nadtlenek wodoru i preparaty wielozadaniowe dla wymagających
+                            zastosowań przemysłowych.</p>
+                        <div class="card-features">
+                            <!--<span class="feature-badge">Certyfikaty jakości</span>
                                 <span class="feature-badge">Wsparcie techniczne</span>-->
-                            </div>
                         </div>
-                    </a>
-                    
-                    <a href="dom-i-ogrod.html" class="offer-card-link">
-                        <div class="offer-card">
-                            <div class="offer-icon">🏡</div>
-                            <h3>Dom i ogród</h3>
-                            <p>Biopaliwa, płyny do spryskiwaczy, środki dezynfekujące, woda utleniona dla zastosowań domowych i ogrodniczych.</p>
-                            <div class="card-features">
-                                <!--<span class="feature-badge">Bezpieczne stosowanie</span>
+                    </div>
+                </a>
+
+                <a href="dom-i-ogrod.html" class="offer-card-link">
+                    <div class="offer-card">
+                        <div class="offer-icon">🏡</div>
+                        <h3>Dom i ogród</h3>
+                        <p>Biopaliwa, płyny do spryskiwaczy, środki dezynfekujące, woda utleniona dla zastosowań
+                            domowych i ogrodniczych.</p>
+                        <div class="card-features">
+                            <!--<span class="feature-badge">Bezpieczne stosowanie</span>
                                 <span class="feature-badge">Przyjazne środowisku</span>-->
-                            </div>
                         </div>
-                    </a>
-                    
-                    <a href="surowce-chemiczne.html" class="offer-card-link">
-                        <div class="offer-card">
-                            <div class="offer-icon">🔬</div>
-                            <h3>Surowce chemiczne</h3>
-                            <p>Najszerszy wybór podstawowych surowców chemicznych: kwasy, zasady, sole, rozpuszczalniki najwyższej jakości.</p>
-                            <div class="card-features">
-                                <!--<span class="feature-badge">Pełna dokumentacja</span>
+                    </div>
+                </a>
+
+                <a href="surowce-chemiczne.html" class="offer-card-link">
+                    <div class="offer-card">
+                        <div class="offer-icon">🔬</div>
+                        <h3>Surowce chemiczne</h3>
+                        <p>Najszerszy wybór podstawowych surowców chemicznych: kwasy, zasady, sole, rozpuszczalniki
+                            najwyższej jakości.</p>
+                        <div class="card-features">
+                            <!--<span class="feature-badge">Pełna dokumentacja</span>
                                 <span class="feature-badge">Kontrola jakości</span>-->
-                            </div>
                         </div>
-                    </a>
-					<a href="kontakt.html" class="offer-card-link">
-						<div class="offer-card">
-							<div class="offer-icon">📦</div>
-							<h3>Inne</h3>
-							<p>Jeżeli poszukują Państwo produktów spoza przedstawionej oferty, prosimy o kontakt. Postaramy się znaleźć odpowiednie rozwiązanie zgodnie z Państwa wymaganiami.</p>
-							<div class="card-features">
-                <!--<span class="feature-badge">Indywidualne podejście</span>
+                    </div>
+                </a>
+                <a href="kontakt.html" class="offer-card-link">
+                    <div class="offer-card">
+                        <div class="offer-icon">📦</div>
+                        <h3>Inne</h3>
+                        <p>Jeżeli poszukują Państwo produktów spoza przedstawionej oferty, prosimy o kontakt. Postaramy
+                            się znaleźć odpowiednie rozwiązanie zgodnie z Państwa wymaganiami.</p>
+                        <div class="card-features">
+                            <!--<span class="feature-badge">Indywidualne podejście</span>
                 <span class="feature-badge">Elastyczna oferta</span>-->
-							</div>
-						</div>
-					</a>
-                </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
     </section>
 
@@ -152,88 +180,95 @@
                     <div class="product-icon">placeholder</div>
                     <h3>placeholder</h3>
                 </div>
-            <div class="random-products-grid">
+                <div class="random-products-grid">
                     <div class="product-icon">placeholder</div>
                     <h3>placeholder</h3>
                 </div>
-            <div class="random-products-grid">
+                <div class="random-products-grid">
                     <div class="product-icon">placeholder</div>
                     <h3>placeholder</h3>
                 </div>
-            <div class="random-products-grid">
+                <div class="random-products-grid">
                     <div class="product-icon">placeholder</div>
                     <h3>placeholder</h3>
                 </div>
-            <div class="random-products-grid">
+                <div class="random-products-grid">
                     <div class="product-icon">placeholder</div>
                     <h3>placeholder</h3>
                 </div>
-            <div class="random-products-grid">
+                <div class="random-products-grid">
                     <div class="product-icon">placeholder</div>
                     <h3>placeholder</h3>
                 </div>
-            <div class="random-products-grid">
+                <div class="random-products-grid">
                     <div class="product-icon">placeholder</div>
                     <h3>placeholder</h3>
                 </div>
-            <div class="random-products-grid">
+                <div class="random-products-grid">
                     <div class="product-icon">placeholder</div>
                     <h3>placeholder</h3>
                 </div>
-			<div class="random-products-grid">
+                <div class="random-products-grid">
                     <div class="product-icon">placeholder</div>
                     <h3>placeholder</h3>
                 </div>
             </div>
-			
+
         </div>
     </section>
 
     <!-- Values Section -->
-<section class="values-section">
-    <div class="container">
-        <h2>Nasze wartości</h2>
-        <div class="values-grid">
-            <div class="value-card">
-                <div class="value-icon">🌍</div>
-                <h3>Globalna perspektywa</h3>
-                <p>Myślimy globalnie, działamy lokalnie. Nasza międzynarodowa sieć partnerów pozwala nam oferować konkurencyjne ceny i szybkie dostawy, jednocześnie zapewniając personalizowaną obsługę w języku klienta.</p>
-            </div>
-            <div class="value-card">
-                <div class="value-icon">🔒</div>
-                <h3>Bezpieczeństwo</h3>
-                <p>Bezpieczeństwo to podstawa naszej działalności. Stosujemy najsurowsze procedury bezpieczeństwa, regularnie szkolimy personel i inwestujemy w nowoczesne systemy magazynowania i transportu chemikaliów.</p>
-            </div>
-            <div class="value-card">
-                <div class="value-icon">🤝</div>
-                <h3>Partnerstwo</h3>
-                <p>Budujemy długofalowe relacje oparte na zaufaniu i wzajemnym sukcesie. Naszym celem nie jest jednorazowa transakcja, ale trwałe partnerstwo wspierające rozwój biznesu klientów.</p>
+    <section class="values-section">
+        <div class="container">
+            <h2>Nasze wartości</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">🌍</div>
+                    <h3>Globalna perspektywa</h3>
+                    <p>Myślimy globalnie, działamy lokalnie. Nasza międzynarodowa sieć partnerów pozwala nam oferować
+                        konkurencyjne ceny i szybkie dostawy, jednocześnie zapewniając personalizowaną obsługę w języku
+                        klienta.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🔒</div>
+                    <h3>Bezpieczeństwo</h3>
+                    <p>Bezpieczeństwo to podstawa naszej działalności. Stosujemy najsurowsze procedury bezpieczeństwa,
+                        regularnie szkolimy personel i inwestujemy w nowoczesne systemy magazynowania i transportu
+                        chemikaliów.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🤝</div>
+                    <h3>Partnerstwo</h3>
+                    <p>Budujemy długofalowe relacje oparte na zaufaniu i wzajemnym sukcesie. Naszym celem nie jest
+                        jednorazowa transakcja, ale trwałe partnerstwo wspierające rozwój biznesu klientów.</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
     <!-- Contact Section -->
     <section class="contact-section">
         <div class="container">
             <h2>Zainteresowany naszą ofertą?</h2>
-            <p>Skontaktuj się z naszymi ekspertami i otrzymaj spersonalizowaną ofertę dopasowaną do Twoich potrzeb. Zapewniamy konkurencyjne ceny i najwyższą jakość obsługi.</p>
+            <p>Skontaktuj się z naszymi ekspertami i otrzymaj spersonalizowaną ofertę dopasowaną do Twoich potrzeb.
+                Zapewniamy konkurencyjne ceny i najwyższą jakość obsługi.</p>
             <a href="kontakt.html" class="contact-button">Zapytaj o cenę</a>
         </div>
     </section>
-	<div id="cookieBanner">
-    <div class="cookie-content">
-        <div class="cookie-text">
-            <p>🍪 Ta strona używa wyłącznie niezbędnych plików cookies, aby zapewnić jej prawidłowe działanie. 
-            Dalsze korzystanie ze strony oznacza zgodę na ich użycie. 
-            <a href="polityka.html">Polityka prywatności</a></p>
-        </div>
-        <div class="cookie-actions">
-            <button class="cookie-btn btn-accept" onclick="acceptCookies()">Rozumiem</button>
+    <div id="cookieBanner">
+        <div class="cookie-content">
+            <div class="cookie-text">
+                <p>🍪 Ta strona używa wyłącznie niezbędnych plików cookies, aby zapewnić jej prawidłowe działanie.
+                    Dalsze korzystanie ze strony oznacza zgodę na ich użycie.
+                    <a href="polityka.html">Polityka prywatności</a>
+                </p>
+            </div>
+            <div class="cookie-actions">
+                <button class="cookie-btn btn-accept" onclick="acceptCookies()">Rozumiem</button>
+            </div>
         </div>
     </div>
-</div>
 
 
     <!-- Footer -->
@@ -243,23 +278,24 @@
                 <div class="footer-section">
                     <h3>WorldChem Sp. z o.o.</h3>
                     <p>ul. Jana Heweliusza 11/811<br>
-                    80-890 Gdańsk<br>
-                    Polska</p>
+                        80-890 Gdańsk<br>
+                        Polska</p>
                     <p>NIP: 5833546441<br>
-                    KRS: 0001191829</p>
+                        KRS: 0001191829</p>
                 </div>
                 <div class="footer-section">
                     <h3>Kontakt handlowy</h3>
                     <p>Email: <a href="mailto:biuro@worldchem.pl">biuro@worldchem.pl</a></p>
                     <p>Tel: <a href="tel:+48 600 535 478">+48 600 535 478</a></p>
                 </div>
-                
+
                 <div class="footer-section">
                     <h3>Szybkie linki</h3>
                     <p><a href="oferta.html">Oferta</a></p>
                     <p><a href="o-nas.html">O nas</a></p>
                     <p><a href="kontakt.html">Kontakt</a></p>
-                    <p><a href="polityka.html">Polityka prywatności</a></p><p><a href="regulamin.html">Regulamin</a></p>
+                    <p><a href="polityka.html">Polityka prywatności</a></p>
+                    <p><a href="regulamin.html">Regulamin</a></p>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -268,6 +304,8 @@
         </div>
     </footer>
 
-    <script src="script.js"></script><script src="cookies.js"></script>
+    <script src="script.js"></script>
+    <script src="cookies.js"></script>
 </body>
+
 </html>

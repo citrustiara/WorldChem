@@ -9,8 +9,8 @@ body {
     line-height: 1.6;
     color: #2d3748;
     overflow-x: hidden;
-	background: linear-gradient(135deg, #f0f5fa 0%, #e6eef5 50%, #dbe6f0 100%);
-	
+    background: linear-gradient(135deg, #f0f5fa 0%, #e6eef5 50%, #dbe6f0 100%);
+
 }
 
 /* Navigation */
@@ -82,27 +82,36 @@ body {
     height: 100%;
     /* Zmieniony gradient na minimalnie mniej niebieski */
     /* Przykład: lekko przesunięte kolory w stronę szarości */
-    background: linear-gradient(135deg, #3b91d4 0%, #2d79c1 50%, #266cb9 100%); 
-    /* background: linear-gradient(135deg, #4299e1 0%, #3182ce 50%, #2973cc 100%); */ /* Stary kolor */
-    opacity: 0; /* Początkowo niewidoczny */
+    background: linear-gradient(135deg, #3b91d4 0%, #2d79c1 50%, #266cb9 100%);
+    /* background: linear-gradient(135deg, #4299e1 0%, #3182ce 50%, #2973cc 100%); */
+    /* Stary kolor */
+    opacity: 0;
+    /* Początkowo niewidoczny */
     transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
     z-index: -1;
-    border-radius: 5px;  /* Jeśli ::before nie dziedziczy border-radius, dodaj to */
+    border-radius: 5px;
+    /* Jeśli ::before nie dziedziczy border-radius, dodaj to */
     /* border-radius jest już ustawiony na a i powinien być przycinany przez overflow:hidden */
 }
 
 .nav-item a:hover::before {
-    opacity: 1; /* Zmiana na widoczny po najechaniu */
-    /* transform: translateY(0); */ /* Ta linia nie jest już potrzebna, 
+    opacity: 1;
+    /* Zmiana na widoczny po najechaniu */
+    /* transform: translateY(0); */
+    /* Ta linia nie jest już potrzebna, 
                                       ponieważ ::before nie jest przesuwany, tylko zmienia przezroczystość */
 }
 
 .nav-item a:hover {
     color: white;
-    /* transform: translateY(-3px); */ /* Opcjonalnie, możesz zostawić efekt unoszenia */
-    box-shadow: 0 8px 25px rgba(59, 145, 212, 0.3); /* Również lekko ciemniejszy cień */
-    /* box-shadow: 0 8px 25px rgba(66, 153, 225, 0.3); */ /* Stary cień */
+    /* transform: translateY(-3px); */
+    /* Opcjonalnie, możesz zostawić efekt unoszenia */
+    box-shadow: 0 8px 25px rgba(59, 145, 212, 0.3);
+    /* Również lekko ciemniejszy cień */
+    /* box-shadow: 0 8px 25px rgba(66, 153, 225, 0.3); */
+    /* Stary cień */
 }
+
 .search-bar {
     display: flex;
     align-items: center;
@@ -147,10 +156,10 @@ body {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: 
-    linear-gradient(135deg, rgba(113, 148, 180, 0.9) 0%, rgba(93, 123, 158, 0.8) 50%, rgba(78, 105, 140, 0.9) 100%), 
-    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><defs><pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M 60 0 L 0 0 0 60" fill="none" stroke="%23ffffff15" stroke-width="1"/></pattern><pattern id="dots" width="40" height="40" patternUnits="userSpaceOnUse"><circle cx="20" cy="20" r="2" fill="%23ffffff10"/></pattern></defs><rect width="100%" height="100%" fill="url(%23grid)"/><rect width="100%" height="100%" fill="url(%23dots)"/></svg>');
-	background-size: cover;
+    background:
+        linear-gradient(135deg, rgba(113, 148, 180, 0.9) 0%, rgba(93, 123, 158, 0.8) 50%, rgba(78, 105, 140, 0.9) 100%),
+        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><defs><pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M 60 0 L 0 0 0 60" fill="none" stroke="%23ffffff15" stroke-width="1"/></pattern><pattern id="dots" width="40" height="40" patternUnits="userSpaceOnUse"><circle cx="20" cy="20" r="2" fill="%23ffffff10"/></pattern></defs><rect width="100%" height="100%" fill="url(%23grid)"/><rect width="100%" height="100%" fill="url(%23dots)"/></svg>');
+    background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
@@ -173,8 +182,13 @@ body {
 }
 
 @keyframes floatBubbles {
-    0% { transform: translateY(100vh) rotate(0deg); }
-    100% { transform: translateY(-100px) rotate(360deg); }
+    0% {
+        transform: translateY(100vh) rotate(0deg);
+    }
+
+    100% {
+        transform: translateY(-100px) rotate(360deg);
+    }
 }
 
 .hero-content {
@@ -185,8 +199,15 @@ body {
 }
 
 @keyframes heroContentFloat {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-10px); }
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
 }
 
 .hero h1 {
@@ -256,12 +277,12 @@ body {
 /* Search Section */
 .search-section {
     padding: 100px 0;
-    background: 
+    background:
         linear-gradient(135deg, #f7fafc 0%, #edf2f7 50%, #e2e8f0 100%),
         url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><pattern id="searchPattern" width="40" height="40" patternUnits="userSpaceOnUse"><circle cx="20" cy="20" r="1" fill="%234299e120"/></pattern></defs><rect width="100%" height="100%" fill="url(%23searchPattern)"/></svg>');
     position: relative;
     overflow: hidden;
-	border-radius: 20px;
+    border-radius: 20px;
 }
 
 .search-section::before {
@@ -276,8 +297,13 @@ body {
 }
 
 @keyframes rotate {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .container {
@@ -286,7 +312,7 @@ body {
     padding: 0 20px;
     position: relative;
     z-index: 2;
-	
+
 }
 
 .search-section h2 {
@@ -301,8 +327,15 @@ body {
 }
 
 @keyframes titlePulse {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.02); }
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.02);
+    }
 }
 
 .main-search {
@@ -311,7 +344,7 @@ body {
     display: flex;
     background: white;
     border-radius: 50px;
-    box-shadow: 
+    box-shadow:
         0 15px 45px rgba(66, 153, 225, 0.15),
         0 5px 20px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -321,7 +354,7 @@ body {
 
 .main-search:hover {
     transform: translateY(-3px);
-    box-shadow: 
+    box-shadow:
         0 20px 60px rgba(66, 153, 225, 0.2),
         0 10px 30px rgba(0, 0, 0, 0.15);
     border-color: rgba(66, 153, 225, 0.3);
@@ -402,14 +435,14 @@ body {
     position: relative;
     height: 450px;
     border-radius: 25px;
-	background: linear-gradient(135deg, #f0f4f8 0%, #e1e8f0 50%, #d4dde8 100%);
+    background: linear-gradient(135deg, #f0f4f8 0%, #e1e8f0 50%, #d4dde8 100%);
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     font-size: 5rem;
     font-weight: bold;
-    box-shadow: 
+    box-shadow:
         0 25px 70px rgba(66, 153, 225, 0.3),
         0 10px 30px rgba(0, 0, 0, 0.1);
     transition: all 0.4s ease;
@@ -423,20 +456,27 @@ body {
     left: -50%;
     width: 200%;
     height: 200%;
-    background: 
+    background:
         radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.2) 0%, transparent 30%),
         radial-gradient(circle at 70% 70%, rgba(255, 255, 255, 0.1) 0%, transparent 40%);
     animation: shimmer 4s ease-in-out infinite;
 }
 
 @keyframes shimmer {
-    0%, 100% { transform: rotate(0deg) scale(1); }
-    50% { transform: rotate(180deg) scale(1.1); }
+
+    0%,
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    50% {
+        transform: rotate(180deg) scale(1.1);
+    }
 }
 
 .about-image:hover {
     transform: translateY(-8px) scale(1.02);
-    box-shadow: 
+    box-shadow:
         0 35px 90px rgba(66, 153, 225, 0.4),
         0 15px 40px rgba(0, 0, 0, 0.15);
 }
@@ -444,7 +484,7 @@ body {
 /* Offer Section */
 .offer-section {
     padding: 120px 0;
-    background: 
+    background:
         linear-gradient(135deg, #f7fafc 0%, #edf2f7 50%, #e2e8f0 100%),
         url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="hexPattern" width="20" height="20" patternUnits="userSpaceOnUse"><polygon points="10,2 18,7 18,13 10,18 2,13 2,7" fill="none" stroke="%234299e108" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(%23hexPattern)"/></svg>');
     position: relative;
@@ -458,15 +498,24 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: 
+    background:
         radial-gradient(ellipse at top, rgba(66, 153, 225, 0.1) 0%, transparent 50%),
         radial-gradient(ellipse at bottom, rgba(49, 130, 206, 0.08) 0%, transparent 50%);
     animation: breathe 8s ease-in-out infinite;
 }
 
 @keyframes breathe {
-    0%, 100% { opacity: 1; transform: scale(1); }
-    50% { opacity: 0.8; transform: scale(1.02); }
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.8;
+        transform: scale(1.02);
+    }
 }
 
 .offer-section h2 {
@@ -494,7 +543,7 @@ body {
     padding: 45px;
     border-radius: 25px;
     border: 1px solid rgba(66, 153, 225, 0.15);
-    box-shadow: 
+    box-shadow:
         0 15px 40px rgba(66, 153, 225, 0.1),
         0 5px 20px rgba(0, 0, 0, 0.05);
     transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -533,13 +582,20 @@ body {
 }
 
 @keyframes ripple {
-    0% { transform: scale(0); opacity: 1; }
-    100% { transform: scale(1); opacity: 0; }
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
 }
 
 .offer-card:hover {
     transform: translateY(-12px) scale(1.03);
-    box-shadow: 
+    box-shadow:
         0 30px 70px rgba(66, 153, 225, 0.2),
         0 15px 35px rgba(0, 0, 0, 0.1);
     background: linear-gradient(145deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.85) 100%);
@@ -622,7 +678,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: 
+    background:
         radial-gradient(circle at 25% 25%, rgba(66, 153, 225, 0.1) 0%, transparent 50%),
         radial-gradient(circle at 75% 75%, rgba(49, 130, 206, 0.08) 0%, transparent 50%),
         url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="10" cy="10" r="1" fill="%234299e120"><animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/></circle><circle cx="90" cy="20" r="1.5" fill="%233182ce15"><animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite"/></circle><circle cx="30" cy="80" r="0.8" fill="%234299e125"><animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite"/></circle></svg>') repeat;
@@ -664,7 +720,8 @@ body {
 
 /* Ewentualna klasa dla treści wewnątrz karty (np. opis) */
 .product-card .card-content {
-    flex-grow: 1; /* Rozciąga zawartość, żeby wyrównać wysokość */
+    flex-grow: 1;
+    /* Rozciąga zawartość, żeby wyrównać wysokość */
 }
 
 /* Reszta twoich stylów */
@@ -715,7 +772,7 @@ body {
     background: white;
     position: relative;
     overflow: hidden;
-    background-image: 
+    background-image:
         radial-gradient(circle at 10% 20%, rgba(66, 153, 225, 0.03) 0%, transparent 8%),
         radial-gradient(circle at 90% 80%, rgba(66, 153, 225, 0.03) 0%, transparent 8%);
     background-size: 1000px 600px;
@@ -731,6 +788,7 @@ body {
     background: linear-gradient(135deg, rgba(66, 153, 225, 0.05) 0%, transparent 100%);
     transform: skewX(15deg);
 }
+
 .values-section h2 {
     text-align: center;
     font-size: 2.8rem;
@@ -838,7 +896,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: 
+    background:
         radial-gradient(circle at 10% 20%, rgba(255, 255, 255, 0.05) 0%, transparent 20%),
         radial-gradient(circle at 90% 80%, rgba(255, 255, 255, 0.05) 0%, transparent 20%),
         url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="1" fill="%23ffffff20"><animate attributeName="cy" values="20;80;20" dur="15s" repeatCount="indefinite"/></circle><circle cx="50" cy="50" r="1" fill="%23ffffff10"><animate attributeName="cx" values="50;80;50" dur="12s" repeatCount="indefinite"/></circle><circle cx="80" cy="30" r="1" fill="%23ffffff20"><animate attributeName="cy" values="30;70;30" dur="18s" repeatCount="indefinite"/></circle></svg>') repeat;
@@ -847,18 +905,33 @@ body {
     z-index: 0;
 }
 
-.contact-section > * {
+.contact-section>* {
     position: relative;
     z-index: 1;
 }
 
 @keyframes contactFloat {
-    0% { transform: translateY(0px) translateX(0px); }
-    25% { transform: translateY(-15px) translateX(5px); }
-    50% { transform: translateY(0px) translateX(0px); }
-    75% { transform: translateY(10px) translateX(-5px); }
-    100% { transform: translateY(0px) translateX(0px); }
+    0% {
+        transform: translateY(0px) translateX(0px);
+    }
+
+    25% {
+        transform: translateY(-15px) translateX(5px);
+    }
+
+    50% {
+        transform: translateY(0px) translateX(0px);
+    }
+
+    75% {
+        transform: translateY(10px) translateX(-5px);
+    }
+
+    100% {
+        transform: translateY(0px) translateX(0px);
+    }
 }
+
 .contact-section h2 {
     font-size: 2.8rem;
     margin-bottom: 35px;
@@ -952,13 +1025,16 @@ body {
     font-size: 1.4rem;
     margin-bottom: 25px;
     color: white;
-    background: white /*linear-gradient(135deg, #4299e1 0%, #ffffff 100%)*/;
+    background: white
+        /*linear-gradient(135deg, #4299e1 0%, #ffffff 100%)*/
+    ;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.footer-section p, .footer-section a {
+.footer-section p,
+.footer-section a {
     color: #cbd5e0;
     text-decoration: none;
     line-height: 1.7;
@@ -997,7 +1073,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: 
+    background:
         radial-gradient(circle at 25% 25%, rgba(66, 153, 225, 0.1) 0%, transparent 50%),
         radial-gradient(circle at 75% 75%, rgba(49, 130, 206, 0.08) 0%, transparent 50%),
         url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="10" cy="10" r="1" fill="%234299e120"><animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/></circle><circle cx="90" cy="20" r="1.5" fill="%233182ce15"><animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite"/></circle><circle cx="30" cy="80" r="0.8" fill="%234299e125"><animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite"/></circle></svg>') repeat;
@@ -1005,14 +1081,35 @@ body {
 }
 
 /* Wspólne style */
-.page-header h1 { text-align: center; font-size: 3.5rem; margin-bottom: 25px; position: relative; z-index: 2; text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); animation: slideInDown 1s ease-out; } /* Styl dla paragrafu p w .page-header pozostaje bez zmian */ 
-.page-header p { text-align: center; font-size: 1.3rem; opacity: 0.95; max-width: 700px; margin: 0 auto; position: relative; z-index: 2; text-shadow: 0 2px 15px rgba(0, 0, 0, 0.2); line-height: 1.6; animation: slideInUp 1s ease-out 0.3s both; }
+.page-header h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    animation: slideInDown 1s ease-out;
+}
+
+/* Styl dla paragrafu p w .page-header pozostaje bez zmian */
+.page-header p {
+    text-align: center;
+    font-size: 1.3rem;
+    opacity: 0.95;
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    line-height: 1.6;
+    animation: slideInUp 1s ease-out 0.3s both;
+}
 
 
 .page-content {
-	padding: 100px;
-    background: 
-        linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(240,248,255,0.95) 100%),
+    padding: 100px;
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(240, 248, 255, 0.95) 100%),
         radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.1) 0%, transparent 50%),
         radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.1) 0%, transparent 50%);
     position: relative;
@@ -1025,8 +1122,8 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: 
-        repeating-linear-gradient(45deg, transparent, transparent 50px, rgba(0,0,0,0.02) 50px, rgba(0,0,0,0.02) 52px);
+    background-image:
+        repeating-linear-gradient(45deg, transparent, transparent 50px, rgba(0, 0, 0, 0.02) 50px, rgba(0, 0, 0, 0.02) 52px);
     pointer-events: none;
 }
 
@@ -1084,7 +1181,7 @@ body {
     padding: 40px;
     border-radius: 25px;
     border: 1px solid rgba(66, 153, 225, 0.15);
-    box-shadow: 
+    box-shadow:
         0 15px 40px rgba(66, 153, 225, 0.08),
         0 5px 20px rgba(0, 0, 0, 0.05);
     transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -1121,7 +1218,7 @@ body {
 
 .content-card:hover {
     transform: translateY(-10px) scale(1.02);
-    box-shadow: 
+    box-shadow:
         0 25px 60px rgba(66, 153, 225, 0.15),
         0 10px 30px rgba(0, 0, 0, 0.1);
     background: linear-gradient(145deg, rgba(255, 255, 255, 0.98) 0%, rgba(247, 250, 252, 0.95) 100%);
@@ -1180,7 +1277,7 @@ body {
     background: linear-gradient(145deg, rgba(255, 255, 255, 0.95) 0%, rgba(247, 250, 252, 0.9) 100%);
     padding: 50px;
     border-radius: 25px;
-    box-shadow: 
+    box-shadow:
         0 20px 50px rgba(66, 153, 225, 0.1),
         0 10px 25px rgba(0, 0, 0, 0.05);
     border: 1px solid rgba(66, 153, 225, 0.2);
@@ -1271,7 +1368,7 @@ body {
     background: linear-gradient(145deg, rgba(255, 255, 255, 0.95) 0%, rgba(247, 250, 252, 0.9) 100%);
     border-radius: 25px;
     border: 1px solid rgba(66, 153, 225, 0.15);
-    box-shadow: 
+    box-shadow:
         0 15px 40px rgba(66, 153, 225, 0.1),
         0 5px 20px rgba(0, 0, 0, 0.05);
     backdrop-filter: blur(15px);
@@ -1317,10 +1414,10 @@ body {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, 
-        transparent 0%, 
-        rgba(66, 153, 225, 0.1) 50%, 
-        transparent 100%);
+    background: linear-gradient(90deg,
+            transparent 0%,
+            rgba(66, 153, 225, 0.1) 50%,
+            transparent 100%);
     transition: left 0.5s ease;
 }
 
@@ -1333,7 +1430,7 @@ body {
     border-color: rgba(66, 153, 225, 0.3);
     color: #2d3748;
     transform: translateY(-3px) translateX(5px) scale(1.02);
-    box-shadow: 
+    box-shadow:
         0 10px 30px rgba(66, 153, 225, 0.15),
         0 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -1344,6 +1441,7 @@ body {
         opacity: 0;
         transform: translateY(-60px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -1355,6 +1453,7 @@ body {
         opacity: 0;
         transform: translateY(60px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -1362,12 +1461,13 @@ body {
 }
 
 @keyframes fadeInScale {
-    from { 
-        opacity: 0; 
+    from {
+        opacity: 0;
         transform: scale(0.8);
     }
-    to { 
-        opacity: 1; 
+
+    to {
+        opacity: 1;
         transform: scale(1);
     }
 }
@@ -1377,6 +1477,7 @@ body {
         opacity: 0;
         transform: translateY(-20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -1384,8 +1485,13 @@ body {
 }
 
 @keyframes float {
-    0% { transform: translateY(0px) rotate(0deg); }
-    100% { transform: translateY(-100px) rotate(360deg); }
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+
+    100% {
+        transform: translateY(-100px) rotate(360deg);
+    }
 }
 
 /* Mobile Responsiveness */
@@ -1525,308 +1631,308 @@ html {
 }
 
 .offer-card-link {
-            text-decoration: none;
-            color: inherit;
-            display: block;
-            height: 100%;
-        }
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+}
 
-        .offer-card-link:hover {
-            color: inherit;
-            text-decoration: none;
-        }
+.offer-card-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
 
-        .offer-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 30px;
-            margin-top: 40px;
-        }
+.offer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
 
-        .offer-card {
-            background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
-            padding: 40px;
-            border-radius: 20px;
-            border: 1px solid rgba(74, 85, 104, 0.1);
-            box-shadow: 
-                0 10px 30px rgba(74, 85, 104, 0.08),
-                0 1px 8px rgba(0, 0, 0, 0.05);
-            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-            position: relative;
-            overflow: hidden;
-            cursor: pointer;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-        }
+.offer-card {
+    background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(74, 85, 104, 0.1);
+    box-shadow:
+        0 10px 30px rgba(74, 85, 104, 0.08),
+        0 1px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
-        .offer-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 4px;
-            background: linear-gradient(135deg, #4a5568 0%, #718096 50%, #667eea 100%);
-            border-radius: 20px 20px 0 0;
-        }
+.offer-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(135deg, #4a5568 0%, #718096 50%, #667eea 100%);
+    border-radius: 20px 20px 0 0;
+}
 
-        .offer-card:hover {
-            transform: translateY(-8px) scale(1.02);
-            box-shadow: 
-                0 25px 50px rgba(74, 85, 104, 0.15),
-                0 10px 30px rgba(0, 0, 0, 0.1);
-            background: linear-gradient(145deg, #ffffff 0%, #f1f3f4 100%);
-        }
+.offer-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow:
+        0 25px 50px rgba(74, 85, 104, 0.15),
+        0 10px 30px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(145deg, #ffffff 0%, #f1f3f4 100%);
+}
 
-        .offer-icon {
-            width: 80px;
-            height: 80px;
-            margin: 0 auto 20px;
-            background: linear-gradient(135deg, #4a5568 0%, #718096 100%);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 2rem;
-            font-weight: bold;
-            box-shadow: 0 8px 25px rgba(74, 85, 104, 0.3);
-            transition: all 0.3s ease;
-        }
+.offer-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    background: linear-gradient(135deg, #4a5568 0%, #718096 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 0 8px 25px rgba(74, 85, 104, 0.3);
+    transition: all 0.3s ease;
+}
 
-        .offer-card:hover .offer-icon {
-            transform: rotate(5deg) scale(1.1);
-            box-shadow: 0 12px 35px rgba(74, 85, 104, 0.4);
-        }
+.offer-card:hover .offer-icon {
+    transform: rotate(5deg) scale(1.1);
+    box-shadow: 0 12px 35px rgba(74, 85, 104, 0.4);
+}
 
-        .offer-card h3 {
-            font-size: 1.5rem;
-            margin-bottom: 15px;
-            color: #333;
-            font-weight: 700;
-            text-align: center;
-        }
+.offer-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: 700;
+    text-align: center;
+}
 
-        .offer-card p {
-            color: #666;
-            line-height: 1.6;
-            margin-bottom: 20px;
-            flex-grow: 1;
-            text-align: center;
-        }
+.offer-card p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    flex-grow: 1;
+    text-align: center;
+}
 
-        .card-features {
-            display: flex;
-            gap: 10px;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin-top: auto;
-        }
+.card-features {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
 
-        .feature-badge {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 5px 12px;
-            border-radius: 15px;
-            font-size: 0.8rem;
-            font-weight: 500;
-        }
+.feature-badge {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
 
-        /* Featured Products Section */
-        .featured-products {
-            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            padding: 60px 40px;
-            border-radius: 20px;
-            margin: 40px 0;
-        }
+/* Featured Products Section */
+.featured-products {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 60px 40px;
+    border-radius: 20px;
+    margin: 40px 0;
+}
 
-        .products-showcase {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-            margin-top: 30px;
-        }
+.products-showcase {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
 
-        .product-showcase-card {
-            background: white;
-            padding: 30px;
-            border-radius: 15px;
-            text-align: center;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
-            transition: all 0.3s ease;
-        }
+.product-showcase-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
 
-        .product-showcase-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
-        }
+.product-showcase-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
 
-        .product-formula {
-            font-size: 2rem;
-            font-weight: bold;
-            color: #4a5568;
-            margin-bottom: 15px;
-            background: linear-gradient(135deg, #4a5568 0%, #667eea 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
+.product-formula {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4a5568;
+    margin-bottom: 15px;
+    background: linear-gradient(135deg, #4a5568 0%, #667eea 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
 
-        .product-showcase-card h4 {
-            font-size: 1.2rem;
-            margin-bottom: 10px;
-            color: #333;
-        }
+.product-showcase-card h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
 
-        .product-showcase-card p {
-            color: #666;
-            font-size: 0.9rem;
-            margin-bottom: 15px;
-        }
+.product-showcase-card p {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
 
-        .product-specs {
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-        }
+.product-specs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 
-        .product-specs span {
-            background: #f8f9fa;
-            padding: 3px 10px;
-            border-radius: 10px;
-            font-size: 0.8rem;
-            color: #555;
-        }
+.product-specs span {
+    background: #f8f9fa;
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    color: #555;
+}
 
-        /* Services Section */
-        .services-section {
-            margin: 60px 0;
-        }
+/* Services Section */
+.services-section {
+    margin: 60px 0;
+}
 
-        .services-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
-            margin-top: 30px;
-        }
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
 
-        .service-card {
-            background: white;
-            padding: 35px;
-            border-radius: 15px;
-            text-align: center;
-            border: 2px solid #f1f3f4;
-            transition: all 0.3s ease;
-        }
+.service-card {
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid #f1f3f4;
+    transition: all 0.3s ease;
+}
 
-        .service-card:hover {
-            border-color: #4a5568;
-            transform: translateY(-3px);
-            box-shadow: 0 10px 30px rgba(74, 85, 104, 0.1);
-        }
+.service-card:hover {
+    border-color: #4a5568;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(74, 85, 104, 0.1);
+}
 
-        .service-icon {
-            font-size: 3rem;
-            margin-bottom: 20px;
-            display: block;
-        }
+.service-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    display: block;
+}
 
-        .service-card h3 {
-            color: #333;
-            margin-bottom: 15px;
-            font-size: 1.3rem;
-        }
+.service-card h3 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
 
-        .service-card p {
-            color: #666;
-            line-height: 1.6;
-        }
+.service-card p {
+    color: #666;
+    line-height: 1.6;
+}
 
-        /* Industries Section */
-        .industries-section {
-            background: linear-gradient(135deg, #333 0%, #4a5568 100%);
-            padding: 60px 40px;
-            border-radius: 20px;
-            color: white;
-            margin: 60px 0;
-        }
+/* Industries Section */
+.industries-section {
+    background: linear-gradient(135deg, #333 0%, #4a5568 100%);
+    padding: 60px 40px;
+    border-radius: 20px;
+    color: white;
+    margin: 60px 0;
+}
 
-        .industries-section h2 {
-            color: white;
-            text-align: center;
-        }
+.industries-section h2 {
+    color: white;
+    text-align: center;
+}
 
-        .industries-section p {
-            color: rgba(255, 255, 255, 0.9);
-            text-align: center;
-            margin-bottom: 40px;
-        }
+.industries-section p {
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    margin-bottom: 40px;
+}
 
-        .industries-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-        }
+.industries-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
 
-        .industry-card {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 25px;
-            border-radius: 15px;
-            text-align: center;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            transition: all 0.3s ease;
-        }
+.industry-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+}
 
-        .industry-card:hover {
-            background: rgba(255, 255, 255, 0.2);
-            transform: translateY(-3px);
-        }
+.industry-card:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+}
 
-        .industry-icon {
-            font-size: 2.5rem;
-            margin-bottom: 15px;
-            display: block;
-        }
+.industry-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    display: block;
+}
 
-        .industry-card h4 {
-            color: white;
-            margin-bottom: 10px;
-            font-size: 1.1rem;
-        }
+.industry-card h4 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
 
-        .industry-card p {
-            color: rgba(255, 255, 255, 0.8);
-            font-size: 0.9rem;
-            line-height: 1.4;
-        }
+.industry-card p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
 
-        /* Mobile responsiveness */
-        @media (max-width: 768px) {
-            .offer-grid {
-                grid-template-columns: 1fr;
-                gap: 20px;
-            }
-            
-            .products-showcase {
-                grid-template-columns: 1fr;
-            }
-            
-            .services-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .industries-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .offer-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 
-        @media (max-width: 480px) {
-            .industries-grid {
-                grid-template-columns: 1fr;
-            }
-        }
+    .products-showcase {
+        grid-template-columns: 1fr;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .industries-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .industries-grid {
+        grid-template-columns: 1fr;
+    }
+}
 
 /* Animations */
 @keyframes slideInDown {
@@ -1834,6 +1940,7 @@ html {
         opacity: 0;
         transform: translateY(-50px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -1845,6 +1952,7 @@ html {
         opacity: 0;
         transform: translateY(50px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -1852,116 +1960,137 @@ html {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
-	header.page-header,
+
+    header.page-header,
     .page-header {
-        padding: 60px 4px 4px 4px;   /* Duży padding-top dla menu */
+        padding: 60px 4px 4px 4px;
+        /* Duży padding-top dla menu */
         margin: 0;
     }
-    
+
     /* Lub alternatywnie dodaj margin-top */
     .page-header h1 {
-        margin-top: 100px;            /* Przestrzeń nad nagłówkiem */
+        margin-top: 100px;
+        /* Przestrzeń nad nagłówkiem */
         margin-bottom: 0;
         padding-bottom: 0;
         line-height: 1.1;
     }
-	
-	body {
-        padding-top: 60px;           /* Przestrzeń dla fixed header */
+
+    body {
+        padding-top: 60px;
+        /* Przestrzeń dla fixed header */
     }
-    
+
     /* Lub dla konkretnej sekcji pod menu */
     .page-content,
     main {
-        padding-top: 60px;           /* Dodatkowa przestrzeń na górze */
+        padding-top: 60px;
+        /* Dodatkowa przestrzeń na górze */
     }
-	
+
     .container,
     .nav-container {
         width: 100%;
         max-width: none;
         margin: 0;
-        padding: 8px;           /* Znacznie mniejsze paddingi */
+        padding: 8px;
+        /* Znacznie mniejsze paddingi */
         box-sizing: border-box;
     }
-    
+
     /* Drastycznie zmniejszone nagłówki */
-    h1, .page-header h1 {
-        font-size: 1.4rem;      /* Znacznie mniejsze */
+    h1,
+    .page-header h1 {
+        font-size: 1.4rem;
+        /* Znacznie mniejsze */
         line-height: 1.1;
-        margin: 8px 0;          /* Mniejsze marginesy */
+        margin: 8px 0;
+        /* Mniejsze marginesy */
     }
-    
+
     .container p {
-        font-size: 0.9rem;      /* Mniejsze paragrafy */
-        margin: 6px 0;          /* Mniejsze odstępy */
+        font-size: 0.9rem;
+        /* Mniejsze paragrafy */
+        margin: 6px 0;
+        /* Mniejsze odstępy */
     }
-    
+
     .container h2 {
-        font-size: 1.5rem;      /* Kompaktowe h2 */
+        font-size: 1.5rem;
+        /* Kompaktowe h2 */
         margin: 10px 0;
     }
-    
+
     h2 {
         font-size: 1.2rem;
         line-height: 1.2;
         margin: 8px 0;
     }
-    
+
     h3 {
         font-size: 1rem;
         margin: 6px 0;
     }
-    
+
     body,
     p,
     .offer-card p,
     .services-section p,
     .contact-section p {
-        font-size: 0.85rem;     /* Mniejsze teksty */
+        font-size: 0.85rem;
+        /* Mniejsze teksty */
         line-height: 1.4;
         margin: 4px 0;
     }
-    
+
     /* Kompaktowe sekcje treści */
     .content-section h2 {
-        padding: 15px 8px;      /* Znacznie mniejsze paddingi */
+        padding: 15px 8px;
+        /* Znacznie mniejsze paddingi */
         font-size: 1.3rem;
     }
-    
+
     .content-section p {
         font-size: 0.9rem;
         margin: 6px 0;
     }
-    
+
     /* Siatka treści - 2 kolumny z mniejszymi odstępami */
     .content-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 8px;               /* Mniejsze odstępy */
+        gap: 8px;
+        /* Mniejsze odstępy */
         padding: 8px;
     }
-    
+
     .content-card {
-        padding: 10px;          /* Kompaktowe karty */
+        padding: 10px;
+        /* Kompaktowe karty */
     }
-    
+
     .content-card p {
         font-size: 0.8rem;
         margin: 4px 0;
     }
-    
+
     .content-card h3 {
         font-size: 1.1rem;
         margin: 6px 0;
     }
-    
+
     /* Karty ofertowe - jedna kolumna, kompaktowe */
     .offer-grid,
     .services-grid {
@@ -1969,67 +2098,74 @@ html {
         gap: 12px;
         padding: 8px;
     }
-    
+
     .offer-card,
     .service-card {
         width: 100%;
         max-width: 100%;
-        padding: 12px;          /* Mniejsze wewnętrzne odstępy */
+        padding: 12px;
+        /* Mniejsze wewnętrzne odstępy */
         margin: 0;
         box-sizing: border-box;
     }
-    
+
     /* Kompaktowe inputy i przyciski */
     .main-search input,
     .main-search button {
         font-size: 0.85rem;
-        padding: 8px 12px;      /* Mniejsze przyciski */
+        padding: 8px 12px;
+        /* Mniejsze przyciski */
     }
-    
+
     /* Boxy i modale - pełna szerokość */
-    .box, .modal, .content-box {
+    .box,
+    .modal,
+    .content-box {
         width: 100%;
         max-width: 100%;
         padding: 10px;
         margin: 8px 0;
         box-sizing: border-box;
     }
-    
+
     /* Page content - maksymalne wykorzystanie */
     .page-content {
         width: 100%;
         max-width: none;
         margin: 0;
-        padding: 8px;           /* Minimalne odstępy */
+        padding: 8px;
+        /* Minimalne odstępy */
         box-sizing: border-box;
     }
-    
+
     .page-content .container {
         width: 100%;
         max-width: 100%;
         padding: 0;
     }
-    
+
     /* Kompaktowa nawigacja */
     nav {
         padding: 8px;
     }
-    
+
     nav ul {
-        gap: 8px;               /* Mniejsze odstępy między linkami */
+        gap: 8px;
+        /* Mniejsze odstępy między linkami */
     }
-    
+
     nav a {
         font-size: 0.85rem;
         padding: 6px 10px;
     }
-    
+
     /* Sekcje - minimalne paddingi */
     section {
-        padding: 15px 8px;      /* Zamiast np. 40px */
+        padding: 15px 8px;
+        /* Zamiast np. 40px */
         margin: 8px 0;
     }
-    
+
     /* Obrazki - responsywne, bez zbędnych marginesów */
     img {
         max-width: 100%;
@@ -2053,17 +2189,17 @@ html {
     .mobile-menu-toggle {
         display: block;
     }
-    
+
     /* Dodatkowe zmniejszenie odstępów globalnie */
     * {
         margin-top: 0;
     }
-    
+
     /* Kompaktowy header */
     header {
         padding: 10px 8px;
     }
-    
+
     /* Footer również kompaktowy */
     footer {
         padding: 15px 8px;
@@ -2074,4 +2210,159 @@ html {
 /* Smooth scrolling */
 html {
     scroll-behavior: smooth;
+}
+
+/* Header Search - Refined */
+.header-search {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+    border-radius: 25px;
+    padding: 5px 15px;
+    margin-left: 20px;
+    border: 1px solid rgba(66, 153, 225, 0.2);
+    position: relative;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+.header-search:hover,
+.header-search:focus-within {
+    background: white;
+    box-shadow: 0 4px 15px rgba(66, 153, 225, 0.15);
+    border-color: rgba(66, 153, 225, 0.5);
+    transform: translateY(-1px);
+}
+
+.header-search input {
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 8px;
+    font-size: 0.9rem;
+    color: #4a5568;
+    width: 200px;
+    font-family: inherit;
+    transition: all 0.3s ease;
+}
+
+.header-search input::placeholder {
+    color: #a0aec0;
+}
+
+.header-search input:focus {
+    width: 240px;
+}
+
+.header-search button {
+    background: linear-gradient(135deg, #4299e1 0%, #3182ce 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    opacity: 0.8;
+}
+
+.header-search button:hover {
+    transform: scale(1.1) rotate(5deg);
+    opacity: 1;
+}
+
+/* Search Dropdown - Refined */
+.search-dropdown {
+    position: absolute;
+    top: calc(100% + 12px);
+    right: 0;
+    width: 320px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow:
+        0 10px 25px rgba(66, 153, 225, 0.15),
+        0 5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    padding: 8px 0;
+    display: none;
+    z-index: 1001;
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    animation: slideDown 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.search-dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.search-dropdown li {
+    border-bottom: 1px solid rgba(237, 242, 247, 0.8);
+}
+
+.search-dropdown li:last-child {
+    border-bottom: none;
+}
+
+.search-dropdown a {
+    display: block;
+    padding: 12px 20px;
+    color: #4a5568;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.search-dropdown a:hover {
+    background: linear-gradient(90deg, #ebf8ff 0%, white 100%);
+    color: #2b6cb0;
+    padding-left: 24px;
+}
+
+.search-dropdown .no-results {
+    padding: 20px;
+    color: #718096;
+    text-align: center;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .header-search {
+        margin: 10px 0;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .header-search input {
+        width: 100% !important;
+        /* Force width on mobile */
+    }
+
+    .search-dropdown {
+        width: 100%;
+        left: 0;
+        right: auto;
+    }
 }

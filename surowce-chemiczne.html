@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Surowce chemiczne - WorldChem</title>
-    <meta name="description" content="Surowce chemiczne WorldChem - najszerszy wybór podstawowych surowców: kwasy, zasady, sole, rozpuszczalniki.">
+    <title>Surowce Chemiczne Hurt - Kwasy, Zasady, Sole | WorldChem</title>
+    <meta name="description"
+        content="Dystrybutor surowców chemicznych. Wodorotlenek sodu, kwasy (siarkowy, solny), sole, tlenki i więcej. Zaopatrujemy przemysł w kluczowe komponenty.">
+    <link rel="icon" type="image/svg+xml" href="LOGO.svg">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cookies.css">
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="qseldxRTi/VwqGJyToppag" async></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17664427538"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-17664427538'); </script>
 </head>
+
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html"><img src="LOGO2.svg" alt="WorldChem" class="logo"/> </a>
+            <a href="index.html"><img src="LOGO2.svg" alt="WorldChem" class="logo" /> </a>
             <ul class="nav-menu">
                 <li class="nav-item"><a href="index.html">Strona główna</a></li>
                 <li class="nav-item"><a href="oferta.html">Oferta</a></li>
                 <li class="nav-item"><a href="o-nas.html">O nas</a></li>
                 <li class="nav-item"><a href="kontakt.html">Kontakt</a></li>
             </ul>
-            <button class="mobile-menu-toggle">☰</button>
+            
+            <div class="header-search">
+                <input type="text" id="headerSearchInput" placeholder="Szukaj...">
+                <button id="headerSearchBtn">🔍</button>
+                <div id="headerSearchResults" class="search-dropdown"></div>
+            </div>
+<button class="mobile-menu-toggle">☰</button>
         </div>
     </nav>
 
@@ -26,7 +41,8 @@
     <header class="page-header">
         <div class="container">
             <h1>Surowce chemiczne</h1>
-            <p>Najszerszy wybór podstawowych surowców chemicznych - kwasy, zasady, sole, rozpuszczalniki, tlenki i inne związki.</p>
+            <p>Najszerszy wybór podstawowych surowców chemicznych - kwasy, zasady, sole, rozpuszczalniki, tlenki i inne
+                związki.</p>
         </div>
     </header>
 
@@ -512,6 +528,11 @@
                     </div>
                 </div>
 
+                <h2>Pozostałe surowce</h2>
+                <div id="extra-products-grid" class="content-grid">
+                    <!-- Produkty będą ładowane dynamicznie z JS -->
+                </div>
+
                 <!-- Packaging Section -->
                 <section class="content-section">
                     <h2>Dostępne opakowania</h2>
@@ -525,7 +546,8 @@
     <section class="contact-section">
         <div class="container">
             <h2>Potrzebujesz więcej informacji?</h2>
-            <p>Skontaktuj się z naszymi ekspertami i otrzymaj szczegółową specyfikację produktów z kategorii surowców chemicznych.</p>
+            <p>Skontaktuj się z naszymi ekspertami i otrzymaj szczegółową specyfikację produktów z kategorii surowców
+                chemicznych.</p>
             <a href="kontakt.html" class="contact-button">Zapytaj o cenę</a>
         </div>
     </section>
@@ -537,23 +559,24 @@
                 <div class="footer-section">
                     <h3>WorldChem Sp. z o.o.</h3>
                     <p>ul. Jana Heweliusza 11/811<br>
-                    80-890 Gdańsk<br>
-                    Polska</p>
+                        80-890 Gdańsk<br>
+                        Polska</p>
                     <p>NIP: 5833546441<br>
-                    KRS: 00011918296</p>
+                        KRS: 00011918296</p>
                 </div>
                 <div class="footer-section">
                     <h3>Kontakt handlowy</h3>
                     <p>Email: <a href="mailto:biuro@worldchem.pl">biuro@worldchem.pl</a></p>
                     <p>Tel: <a href="tel:+48 600 535 478">+48 600 535 478</a></p>
                 </div>
-                
+
                 <div class="footer-section">
                     <h3>Szybkie linki</h3>
                     <p><a href="oferta.html">Oferta</a></p>
                     <p><a href="o-nas.html">O nas</a></p>
                     <p><a href="kontakt.html">Kontakt</a></p>
-                    <p><a href="polityka.html">Polityka prywatności</a></p><p><a href="regulamin.html">Regulamin</a></p>
+                    <p><a href="polityka.html">Polityka prywatności</a></p>
+                    <p><a href="regulamin.html">Regulamin</a></p>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -562,6 +585,21 @@
         </div>
     </footer>
 
+    <div id="cookieBanner">
+        <div class="cookie-content">
+            <div class="cookie-text">
+                <p>🍪 Ta strona używa wyłącznie niezbędnych plików cookies, aby zapewnić jej prawidłowe działanie.
+                    Dalsze korzystanie ze strony oznacza zgodę na ich użycie.
+                    <a href="polityka.html">Polityka prywatności</a>
+                </p>
+            </div>
+            <div class="cookie-actions">
+                <button class="cookie-btn btn-accept" onclick="acceptCookies()">Rozumiem</button>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
+    <script src="cookies.js"></script>
 </body>
+
 </html>
