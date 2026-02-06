@@ -1,6 +1,6 @@
 # WorldChem Website
 
-A modern, responsive website for WorldChem Sp. z o.o. - a leading chemical raw materials supplier based in Gdańsk, Poland.
+A modern, responsive website for WorldChem Sp. z o.o. - a chemical raw materials supplier based in Gdańsk, Poland.
 
 [![Live Site](https://img.shields.io/badge/Live-worldchem.pl-blue)](https://worldchem.pl)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
